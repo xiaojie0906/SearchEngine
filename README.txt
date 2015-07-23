@@ -1,0 +1,4 @@
+Spider为爬虫程序，使用Eclipse开发，该文件夹是eclipse下的工程
+SuperSearch是建立索引及检索模块，用户界面模块的实现，是Eclipse下的工程，需要使用带有JEE的eclipse开发，并且需要装入tomcat插件。
+同时还需要配置lucene，poding等插件。使用时，需在代码里修改网页文件的路径，保存索引文件的路径。
+PageRank文件夹下是计算网页PageRank值的程序源码，使用平台是linux+GPU。里面有使用说明。

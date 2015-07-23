@@ -1,0 +1,20 @@
+函数原型：
+int pagerank(float *coovala,int *coorowinda,int *coocolinda,int nnz,int nodes,float q,int max_iters,float accept_key,float *pr,int *real_iters,float *real_key);
+
+变量说明：
+输入：
+coovala：coo格式储存的矩阵A中非0值
+coorowinda：coo格式储存的矩阵A中的非0值的行号
+coocolinda：coo格式储存的矩阵A中的非0值的列号
+nnz：coo格式储存的矩阵A中非0值的数量
+nodes：网页的数量，亦即A的维数
+q：算法中的参数q
+max_iters：允许的最大迭代次数
+accept_value：算法中用于结束循环的sigma值
+输出：
+pr：pagerank值
+real_iters：实际迭代次数
+real_key：实际sigma值
+
+返回值：
+无意义
